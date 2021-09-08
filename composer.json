@@ -1,0 +1,19 @@
+{
+    "name": "rlivise/platzi",
+    "description": "Basic project",
+    "authors": [
+        {
+            "name": "Rafael Livise",
+            "email": "r.livise@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}

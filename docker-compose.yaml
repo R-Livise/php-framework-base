@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  php:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: php_server_curso_framework
+    restart: always
+    ports:
+      - 8090:80
+    volumes:
+      - ./:/var/www/html
+volumes:
+  html: {}
